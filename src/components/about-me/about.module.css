@@ -1,0 +1,38 @@
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.lay2 {
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+}
+.me {
+  color: #ffd700;
+}
+.lay1 {
+  color: #1f1f1f;
+  font-size: 52px;
+}
+.person {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: grid;
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .lay2 {
+    left: 20%;
+  }
+}
+@media (max-width: 1000px) {
+  .lay2 {
+    left: 35%;
+  }
+}

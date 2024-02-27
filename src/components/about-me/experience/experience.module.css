@@ -1,0 +1,64 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.exHead {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.period {
+  color: #fff;
+}
+.job {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 50%;
+  align-self: center;
+}
+.line {
+  height: 100px;
+  align-self: center;
+}
+.exBox {
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  align-items: self-start;
+  width: 50%;
+}
+.explain .period {
+  font-size: 12px;
+  background-color: #1f1f1f;
+  max-width: 100px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border: 1px solid #1f1f1f;
+}
+.explain .descript {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.explain .desc {
+  font-size: 12px;
+}
+.flex {
+  display: flex;
+  gap: 10%;
+  margin-bottom: 3%;
+}
+.experience {
+  margin: 3%;
+}
+@media (max-width: 600px) {
+  .flex {
+    display: block;
+  }
+  .exBox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,99 @@
+.h1 {
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 22px;
+}
+.meter {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.meter circle {
+  fill: none;
+  stroke-width: 5;
+}
+.meter svg {
+  width: 100%; /* Make the SVG element fill the container */
+  height: 100%; /* Make the SVG element fill the container */
+}
+.meter .bgCircle {
+  stroke: #1f1f1f; /* Background color */
+}
+.meter .progressCircle {
+  stroke: #ffd700; /* Progress color */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 251.327; /* Circumference of a circle with r=40 */
+  stroke-dashoffset: 50.2655; /* 80% of the circumference */
+}
+.percentage {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.skills {
+  padding: 0 10%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+.skills1,
+.skills2 {
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.meter .progressCircle1 {
+  stroke: #ffd700; /* Progress color */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 251.327; /* Circumference of a circle with r=40 */
+  stroke-dashoffset: 38.8055; /* 85% of the circumference */
+}
+.tag {
+  text-transform: uppercase;
+}
+.meter .progressCircle2 {
+  stroke: #ffd700; /* Progress color */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 251.327; /* Circumference of a circle with r=40 */
+  stroke-dashoffset: 45.13225; /* 90% of the circumference */
+}
+
+.meter .progressCircle3 {
+  stroke: #ffd700; /* Progress color */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 251.327; /* Circumference of a circle with r=40 */
+  stroke-dashoffset: 108.9762; /* 60% of the circumference */
+}
+.meter .progressCircle4 {
+  stroke: #ffd700; /* Progress color */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke-dasharray: 251.327; /* Circumference of a circle with r=40 */
+  stroke-dashoffset: 169.6465; /* 30% of the circumference */
+}
+@media (max-width: 500px) {
+  .skills {
+    padding: 0;
+  }
+  .skills1,
+  .skills2 {
+    gap: 3%;
+  }
+}

@@ -1,0 +1,163 @@
+.headerPart {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+.back {
+  font-size: 56px;
+  color: #1f1f1f;
+}
+.front {
+  position: absolute;
+  left: 41%;
+  top: 22%;
+  font-size: 30px;
+}
+.touch {
+  color: #ffd700;
+}
+.leftSide .top {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.leftSide .bodyText {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.address {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 10px;
+}
+.address img {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.address .heads {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.address .locate {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  column-gap: 2%;
+}
+.subjects {
+  width: 94%;
+  background-color: #1f1f1f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.names,
+.emails {
+  width: 50%;
+  background-color: #1f1f1f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.emails {
+  justify-self: end;
+}
+.topInput {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 15px;
+}
+#message {
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.moreAbout {
+  border: 1px solid #ffd700;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 180px;
+  border-radius: 25px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+}
+.moreMe {
+  padding: 12px 0 12px 25px;
+}
+.send {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  transform: rotate(-30deg);
+}
+.social {
+  background-color: #1f1f1f;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+}
+.socials img {
+  max-width: 12px;
+  max-height: 12px;
+}
+.nav {
+  display: grid;
+}
+.contact input,
+.contact textarea {
+  border: 1px solid #1f1f1f;
+}
+@media (max-width: 1000px) {
+  .contact {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .nav {
+    grid-row: 1/2;
+    grid-column: -2/-1;
+  }
+  .leftSide {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .contact {
+    display: block;
+  }
+  .rightSide textarea {
+    width: 95%;
+  }
+  .front {
+    left: 23%;
+    font-size: 24px;
+    top: 25%;
+  }
+  .back {
+    font-size: 54px;
+  }
+}

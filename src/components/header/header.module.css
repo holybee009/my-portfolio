@@ -1,0 +1,93 @@
+.avatar {
+  width: 180%;
+  height: 100%;
+  margin: -20px 0 5px 10px;
+  border-radius: 20px;
+}
+.nav {
+  display: grid;
+}
+.image {
+  background-color: gold;
+  max-width: 150px;
+}
+.head {
+  display: flex;
+  gap: 15%;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  align-items: center;
+  color: gold;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.job {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.paraText {
+  padding: 5% 2%;
+}
+.arrow {
+  height: 24px;
+  width: 24px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.jobDetails {
+  color: white;
+  padding-top: 3%;
+  font-size: 14px;
+  padding-bottom: 3%;
+}
+.moreAbout {
+  border: 1px solid #ffd700;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  max-width: 180px;
+  border-radius: 25px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.moreMe {
+  padding: 10px 0 10px 25px;
+}
+.leftArrow {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+}
+@media (max-width: 1000px) {
+  .avatar {
+    width: 150%;
+    height: 90%;
+  }
+  .image {
+    max-width: 120px;
+    max-height: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    align-self: flex-start;
+  }
+}

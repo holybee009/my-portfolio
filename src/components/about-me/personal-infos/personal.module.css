@@ -1,0 +1,84 @@
+.pInfo {
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  font-size: 22px;
+}
+.labels {
+  text-transform: capitalize;
+  color: #ffffffb0;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.value {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #fff;
+}
+.personal {
+  display: flex;
+  gap: 10%;
+  margin-bottom: 5%;
+}
+.infBox {
+  border: 1px solid #ffd700;
+  padding: 4% 7%;
+  max-height: 150px;
+}
+.num {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 38px;
+}
+.content {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.third {
+  display: flex;
+  gap: 10%;
+}
+.sectio {
+  display: flex;
+  gap: 5%;
+}
+.moreAbout {
+  border: 1px solid #ffd700;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  max-width: 180px;
+  border-radius: 25px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.moreMe {
+  padding: 10px 0 10px 25px;
+}
+.leftArrow {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 9px;
+  border-radius: 50%;
+  background-color: #ffd700;
+}
+.sect {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .personal {
+    display: grid;
+    margin-bottom: 60px;
+  }
+  .third {
+    width: 70%;
+  }
+}

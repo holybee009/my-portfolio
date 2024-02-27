@@ -1,0 +1,118 @@
+.headerPart {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+.back {
+  font-size: 64px;
+  color: #1f1f1f;
+}
+.front {
+  position: absolute;
+  left: 41%;
+  top: 22%;
+  font-size: 30px;
+}
+.touch {
+  color: #ffd700;
+}
+
+.portfolio {
+  display: flex;
+  gap: 7%;
+  margin-bottom: 4%;
+}
+.whiteBox {
+  background-color: #1f1f1f;
+  color: #ffd700;
+  height: 100%;
+  width: 200px;
+  padding: 3%;
+  border-radius: 15px;
+}
+.portHead {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.projects {
+  text-align: center;
+  font-size: 14px;
+  text-transform: capitalize;
+  background-color: purple;
+  color: #fff;
+  width: 250px;
+  margin-left: -25px;
+}
+
+.list {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 5%;
+  margin: 5% 0;
+}
+.list p,
+a p {
+  font-size: 12px;
+}
+.whiteBox ul {
+  list-style-type: circle;
+}
+.list img {
+  width: 40px;
+  height: 40px;
+}
+.nav {
+  display: grid;
+}
+a:first-child {
+  display: flex;
+  color: #fff;
+  gap: 5%;
+}
+a img {
+  align-self: center;
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 1000px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: 5fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav {
+    grid-row: 1/2;
+    grid-column: -2/-1;
+  }
+}
+@media (max-width: 500px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portBox {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav {
+    display: none;
+  }
+  .front {
+    left: 23%;
+    font-size: 24px;
+  }
+  .back {
+    font-size: 54px;
+  }
+}
