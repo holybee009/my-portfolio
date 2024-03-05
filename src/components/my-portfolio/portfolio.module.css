@@ -64,6 +64,7 @@ a p {
   width: 40px;
   height: 40px;
 }
+
 .nav {
   display: grid;
 }
@@ -71,6 +72,9 @@ a:first-child {
   display: flex;
   color: #fff;
   gap: 5%;
+}
+a:hover {
+  text-decoration: underline;
 }
 a img {
   align-self: center;

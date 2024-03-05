@@ -149,8 +149,9 @@
   .contact {
     display: block;
   }
-  .rightSide textarea {
-    width: 95%;
+  .rightSide textarea,
+  .subjects {
+    width: 90%;
   }
   .front {
     left: 23%;

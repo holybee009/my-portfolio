@@ -73,6 +73,9 @@ a {
   display: flex;
   flex-direction: column;
 }
+.third {
+  height: 220px;
+}
 @media (max-width: 1000px) {
   .personal {
     display: grid;
