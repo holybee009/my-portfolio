@@ -40,7 +40,7 @@ function Personal(props: Props) {
                       className={classes.value}
                       style={{ color: props.toBlack }}
                     >
-                      22 years
+                      24 years
                     </span>
                   </p>
                   <p
