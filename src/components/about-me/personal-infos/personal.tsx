@@ -1,7 +1,7 @@
 import classes from "./personal.module.css";
 import dash from "./../../../assets/minus.svg";
 import download from "./../../../assets/download.svg";
-import cv from "./../../../../files/abdulmumin CV.pdf";
+import cv from "./../../../../files/OSHODI ABDULMUMIN CV.pdf";
 import { Reveal } from "../reveal/reveal";
 
 interface Props {
